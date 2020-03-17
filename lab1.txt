@@ -1,0 +1,66 @@
+lab 1.
+
+SELECT *
+
+1. SELECT * FROM `hero` WHERE 1
+
+2. SELECT * FROM `person` WHERE 1
+
+3. SELECT * FROM `npc` WHERE 1 - (194)
+
+4. met de query *
+
+5. select * from animal (105)
+
+6. SELECT * FROM `creature` - (259)
+
+7. SELECT * FROM person ORDER BY name ASC
+
+8. SELECT * FROM city ORDER BY name DESC
+
+9. SELECT * FROM city (27)
+
+SELECT [column], [column]
+
+1. SELECT name FROM armor WHERE 1
+
+2. SELECT name, attack FROM `weapon`
+
+3. SELECT name, health FROM creature
+
+SELECT WHERE
+
+1. SELECT * from animal WHERE type='sheep'
+
+2. SELECT * FROM animal WHERE type=('sheep')
+
+3. SELECT * FROM animal WHERE type=('Sea Snake') - (6)
+
+4. SELECT * FROM `person` WHERE id=('7') - (shrek)
+
+5. 1. SELECT * FROM person INNER JOIN hero ON person.id = hero.person WHERE person.id=7 - (hero)
+   2. SELECT * FROM person INNER JOIN npc ON person.id = npc.person WHERE person.id=7
+
+lab 2.
+
+DISTINCT
+
+1. SELECT DISTINCT type FROM animal
+
+2. SELECT DISTINCT profession FROM npc
+
+AND, OR and NOT
+
+1. SELECT * FROM creature WHERE name= 'Killer Bee' OR name='Orc'
+
+2. SELECT * FROM animal WHERE speed= 6 AND defense= 5
+
+3. SELECT * FROM animal WHERE NOT type='sheep'
+
+4. SELECT * FROM animal WHERE type='Wolf' OR type='Eagle' OR type='Bear'
+
+5. SELECT * FROM person WHERE attack=10 AND defense=10 AND agility=10
+
+6. SELECT * FROM city WHERE region=1 OR region=2
+
+7.
